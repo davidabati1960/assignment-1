@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+nav {
+    background-color: #9FB5D4;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px 15px;
+    padding: 5px;
+    color: black;
+}
+
+h4 {
+    font-size: 23px;
+    margin: 5px;
+}
+
+body {
+    background-color: #D4C29F;
+    margin: 0;
+    background: linear-gradient(to bottom, #D4C29F 0%,#9FB5D4 100%);
+}
+
+footer {
+    text-align: center;
+    background-color: #9FB5D4;
+    margin: 0;
+    padding: 15px;
+}
+
+#welcome {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 30px;
+}
+
+#photo {
+    text-align: center;
+    margin-top: 60px;
+}
+
+#photo img {
+    max-width: 60%;
+    height: auto;
+}
+
+#intro {
+    text-align: center;
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+button {
+    margin: 15px;
+    padding: 10px;
+    background-color: #9FB5D4;
+    color: black;
+    height: 45px;
+    border: 2px white solid;
+    box-shadow: 7px 7px 5px black;
+    border-radius: 5px;
+}
+
+#about-me {
+    text-align: center;
+    font-size: 20px;
+    width: 80%;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #768394;
+}
+
+#profile {
+    margin-top: 30px;
+}
+
+#profile img {
+    max-width: 60%;
+    height: auto;
+}
+
+#wrapper {
+    min-height: 700px;
+    width: 80%;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #768394;
+}
+
+#home {
+    background-color: #768394;
+    min-height: 400px;
+    width: 80%;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    background: linear-gradient(45deg, #768394, #9FB5D4);
+}
+
+.project {
+    text-align: center;
+    font-size: 20px;
+    width: 80%;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #768394;
+}
+
+#my-projects {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+#contact {
+    text-align: center;
+    font-size: 32px;
+}
+#wrapper textarea {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}

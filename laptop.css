@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+#nav-home {
+    background-color: #9FB5D4;
+    margin: -20px;
+    padding: 15px;
+    text-align: center;
+}
+
+nav {
+    background-color: #9FB5D4;
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: black;
+}
+
+h4 {
+    font-size: 25px;
+    margin: 10px;
+}
+
+body {
+    background-color: #D4C29F;
+    margin: 0;
+    background: linear-gradient(to bottom, #D4C29F 0%,#9FB5D4 100%);
+    
+}
+
+footer {
+    text-align: center;
+    background-color: #9FB5D4;
+    margin: 0;
+    padding: 15px;
+}
+
+#welcome {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+#photo {
+    text-align: center;
+    margin-top: 80px;
+}
+
+#photo img {
+    max-width: 100%;
+    height: auto;
+}
+
+#intro {
+    text-align: center;
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+button {
+    margin: 15px;
+    padding: 10px;
+    background-color: #9FB5D4;
+    color: black;
+    height: 40px;
+    border: 2px white solid;
+    box-shadow: 10px 10px 5px black;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #768394;
+    color: black;
+    height: 40px;
+    border: 2px white solid;
+    box-shadow: -10px -10px 5px black;
+    border-radius: 5px;
+}
+
+#about-me {
+    text-align: center;
+    font-size: 20px;
+    width: 80%;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #768394;
+}
+
+#profile {
+    margin-top: 30px;
+}
+
+#profile img {
+    max-width: 100%;
+    height: auto;
+}
+
+#wrapper {
+    min-height: 800px;
+    width: 80%;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #768394;
+}
+
+#home {
+    background-color: #768394;
+    min-height: 400px;
+    width: 80%;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    background: linear-gradient(45deg, #768394, #9FB5D4);
+    
+}
+
+.project {
+    text-align: center;
+    font-size: 20px;
+    width: 80%;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #768394;
+}
+
+.project:hover {
+    background-color: #9FB5D4;
+}
+
+#my-projects {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#contact {
+    text-align: center;
+}
+

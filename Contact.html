@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David's Portfolio</title>
+    <!-- full-size monitor style sheet-->
+    <link href="laptop.css" rel="stylesheet" type="text/css" media="only screen and
+    (min-width:960px)">
+    <!-- tablet style sheet-->
+    <link href="tablet.css" rel="stylesheet" type="text/css" media="only screen and
+    (min-width:481px) and (max-width:959px)">
+    <!-- phone style sheet-->
+    <link href="mobile.css" rel="stylesheet" type="text/css" media="only screen and
+    (max-width:480px)">
+</head>
+<body>
+    <header>
+        <nav>
+            <h4>
+                <a href="Home.html">Home</a>
+                <a href="About.html">About Me </a>
+                <a href="Projects.html">Projects</a>
+                <a href="Contact.html">Contact</a>
+            </h4>
+        </nav>
+    </header>
+
+    <div id="wrapper">
+            <h1 id = "contact">Contact Me</h1>
+            <p>
+            Have a question or want to get in touch?
+            Fill out the form below and I'll get back to you.
+            </p>
+            <form action="mailto:david.abati@ontariotechu.net?subject=Portfolio-Contact-Form"
+            method="post" enctype="text/plain" name="feedback_form">
+                <p>
+                    <label for="Fname">First Name :</label>
+                    <input type="text" name="Fname" id="Fname" size="32" placeholder="Enter your first name" required>
+                </p>
+                <p>
+                    <label for="Lname">Last Name :</label>
+                    <input type="text" name="Lname" id="Lname" size="32" placeholder="Enter your last name" required>
+                </p>
+                <p>
+                    <label for="email">Email :</label>
+                    <input type="email" name="email" id="email" size="40" placeholder="Enter your email" required>
+                </p>
+                <p>
+                    <label for="tel">Phone Number :</label>
+                    <input type="tel" name="tel" id="tel" size="40" placeholder="Enter your phone number" required>
+                </p>
+                <p>
+                    <label for="comments">Comments</label><br>
+                    <textarea name="comments" id="comments" cols="60" rows="6"></textarea>
+                </p>
+                <p>
+                    <input type="checkbox" name="mailist" id="mailist">
+                    <label for="mailist">Put me on your e-list</label>
+                </p>
+                <p>
+                    <label for="where">How did you find out about my portfolio?</label>
+                    <select id="where" name="where">
+                        <option value="Search engine">Search Engine</option>
+                        <option value="Social Media">Social Media</option>
+                        <option value="Words of mouth">Words of mouth</option>
+                        <option value="other">Other</option>
+                    </select>
+                </p>
+                
+                <p>
+                    <label>Do you like my portfolio?</label>
+                    <input type="radio" id="yes" name="portfolio" value="Yes">
+                    <label for="yes">Yes</label>
+                    <input type="radio" id="no" name="portfolio" value="No">
+                    <label for="no">No</label>
+                </p>
+
+                <p><input type="submit" value="Submit"> 
+                    <input type="reset" value="Reset">
+                </p>
+
+                
+               
+            </form>
+    </div>
+    
+    <br><br><br><br><br><br>
+    <footer>
+        <p>david.abati@ontariotechu.net</p>
+        <p>© 2026 David's Portfolio. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+nav {
+    background-color: #9FB5D4;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    color: black;
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 20px;
+    margin: 5px;
+}
+
+body {
+    background-color: #D4C29F;
+    margin: 0;
+    background: linear-gradient(to bottom, #D4C29F 0%,#9FB5D4 100%);
+}
+
+footer {
+    text-align: center;
+    background-color: #9FB5D4;
+    margin: 0;
+    padding: 15px;
+    font-size: 16px;
+}
+
+#welcome {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 25px;
+    padding: 0 15px;
+}
+
+#photo {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#photo img {
+    max-width: 85%;
+    height: auto;
+}
+
+#intro {
+    text-align: center;
+    font-size: 19px;
+    line-height: 1.5;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+button {
+    margin: 15px;
+    padding: 12px 20px;
+    background-color: #9FB5D4;
+    color: black;
+    min-height: 45px;
+    border: 2px white solid;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+#about-me {
+    text-align: center;
+    font-size: 19px;
+    line-height: 1.5;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 15px;
+    background-color: #768394;
+}
+
+#profile {
+    margin-top: 30px;
+    max-width: 85%;
+    height: auto;
+}
+
+#wrapper {
+    height: auto;
+    min-height: 600px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+    padding: 20px;
+    background-color: #768394;
+}
+
+#wrapper input[type="text"],
+#wrapper input[type="email"],
+#wrapper input[type="tel"],
+#wrapper textarea,
+#wrapper select {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+#wrapper input[type="text"],
+#wrapper input[type="email"],
+#wrapper input[type="tel"] {
+    width: 100%;
+}
+
+#wrapper textarea {
+    width: 100%;
+}
+
+#home {
+    background-color: #768394;
+    height: auto;
+    min-height: 350px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    background: linear-gradient(45deg, #768394, #9FB5D4);
+}
+
+.project {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #768394;
+}
+
+#my-projects {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 28px;
+}
+
+#contact {
+    text-align: center;
+    font-size: 30px;
+}
+
